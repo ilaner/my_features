@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+set -e
 
 # This script should run in the devcontainer.
 # This script creates a local certificate file.

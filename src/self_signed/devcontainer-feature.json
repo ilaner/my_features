@@ -3,16 +3,10 @@
     "id": "selfsigned",
     "version": "1.0.3",
     "description": "A feature to trust self signed",
-    "options": {
-        "favorite": {
-            "type": "string",
-            "enum": [
-                "red",
-                "gold",
-                "green"
-            ],
-            "default": "red",
-            "description": "Choose your favorite color."
-        }
-    }
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/git"
+      ],
+    
+    "options": {}
 }
