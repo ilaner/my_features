@@ -1,0 +1,7 @@
+{
+    "name": "Self signed certifacte",
+    "id": "self-signed",
+    "version": "1.0.0",
+    "description": "Make features work with self signed cert",
+    "options": {}
+}
