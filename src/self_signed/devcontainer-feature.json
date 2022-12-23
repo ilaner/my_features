@@ -1,12 +1,22 @@
 {
-    "name": "Self signed",
-    "id": "selfsigned",
-    "version": "1.0.3",
-    "description": "A feature to trust self signed",
+    "name": "My Favorite Color",
+    "id": "self",
+    "version": "1.0.0",
+    "description": "A feature to remind you of your favorite color",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
         "ghcr.io/devcontainers/features/git"
       ],
-    
-    "options": {}
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "red",
+                "gold",
+                "green"
+            ],
+            "default": "",
+            "description": "version."
+        }
+    }
 }
