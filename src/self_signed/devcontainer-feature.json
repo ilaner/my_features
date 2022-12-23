@@ -1,7 +1,18 @@
 {
-    "name": "Self signed certifacte",
+    "name": "Self signed",
     "id": "selfsigned",
-    "version": "1.0.0",
-    "description": "Make features work with self signed cert",
-    "options": {}
+    "version": "1.0.3",
+    "description": "A feature to trust self signed",
+    "options": {
+        "favorite": {
+            "type": "string",
+            "enum": [
+                "red",
+                "gold",
+                "green"
+            ],
+            "default": "red",
+            "description": "Choose your favorite color."
+        }
+    }
 }
